@@ -19,7 +19,7 @@ set -o pipefail
 
 
 # Begin configuration section.
-nj=30
+nj=5
 cmd="run.pl"
 stage=0
 num_gselect=5 # Gaussian-selection using diagonal model: number of Gaussians to select

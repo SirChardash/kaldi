@@ -31,7 +31,7 @@ pnorm_output_dim=300
 p=2
 presoftmax_prior_scale_power=-0.25 # use the specified power value on the priors (inverse priors)
                                    # to scale the pre-softmax outputs
-minibatch_size=128 # by default use a smallish minibatch size for neural net
+minibatch_size=32 # by default use a smallish minibatch size for neural net
                    # training; this controls instability which would otherwise
                    # be a problem with multi-threaded update.
 

@@ -35,7 +35,7 @@ num_epochs=10      # Number of epochs of training (for first language);
 initial_learning_rate=0.04
 final_learning_rate=0.004
 
-minibatch_size=128 # by default use a smallish minibatch size for neural net
+minibatch_size=32 # by default use a smallish minibatch size for neural net
                    # training; this controls instability which would otherwise
                    # be a problem with multi-threaded update. 
 

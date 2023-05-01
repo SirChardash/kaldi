@@ -20,7 +20,7 @@ cmd=run.pl
 num_epochs=5      # Number of epochs of training;
 initial_learning_rate=0.04
 final_learning_rate=0.004
-minibatch_size=128 # by default use a smallish minibatch size for neural net
+minibatch_size=32 # by default use a smallish minibatch size for neural net
                    # training; this controls instability which would otherwise
                    # be a problem with multi-threaded update.
 samples_per_iter=400000 # each iteration of training, see this many samples

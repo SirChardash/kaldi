@@ -25,7 +25,7 @@ softmax_learning_rate_factor=0.5 # Train this layer half as fast as the other la
 
 hidden_layer_dim=300 #  You may want this larger, e.g. 1024 or 2048.
 
-minibatch_size=128 # by default use a smallish minibatch size for neural net
+minibatch_size=32 # by default use a smallish minibatch size for neural net
                    # training; this controls instability which would otherwise
                    # be a problem with multi-threaded update.  Note: it also
                    # interacts with the "preconditioned" update which generally

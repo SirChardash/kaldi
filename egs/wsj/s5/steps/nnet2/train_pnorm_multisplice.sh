@@ -31,7 +31,7 @@ final_learning_rate=0.004
 bias_stddev=0.5
 pnorm_input_dim=3000
 pnorm_output_dim=300
-minibatch_size=128 # by default use a smallish minibatch size for neural net
+minibatch_size=32 # by default use a smallish minibatch size for neural net
                    # training; this controls instability which would otherwise
                    # be a problem with multi-threaded update.
 

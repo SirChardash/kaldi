@@ -143,7 +143,7 @@ if [ $stage -le 11 ]; then
     --trainer.deriv-truncate-margin=10 \
     --trainer.samples-per-iter=20000 \
     --trainer.optimization.num-jobs-initial=1 \
-    --trainer.optimization.num-jobs-final=2 \
+    --trainer.optimization.num-jobs-final=1 \
     --trainer.optimization.initial-effective-lrate=0.0003 \
     --trainer.optimization.final-effective-lrate=0.00003 \
     --trainer.optimization.shrink-value=0.99 \

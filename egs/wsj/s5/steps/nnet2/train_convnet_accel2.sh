@@ -37,7 +37,7 @@ initial_effective_lrate=0.01
 final_effective_lrate=0.001
 bias_stddev=0.5
 hidden_dim=3000
-minibatch_size=128 # by default use a smallish minibatch size for neural net
+minibatch_size=32 # by default use a smallish minibatch size for neural net
                    # training; this controls instability which would otherwise
                    # be a problem with multi-threaded update.
 
