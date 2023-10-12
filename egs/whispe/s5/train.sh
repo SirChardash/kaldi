@@ -25,4 +25,4 @@ echo '### align train ############################'
 echo '### training ###############################'
 
 local/chain/tuning/run_tdnn_1j.sh
-./copy_final_result.sh
+./copy_final_result.sh "$1"

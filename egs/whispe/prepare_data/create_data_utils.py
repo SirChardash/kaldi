@@ -64,7 +64,7 @@ def get_files(corpus_dir, speakers):
     files = []
     for speaker in speakers:
         root = '{0}/{1}'.format(corpus_dir, speaker)
-        speaker_files = [item for item in os.listdir(root) if item.startswith('rec')]
+        speaker_files = [item for item in os.listdir(root)]  # if item.startswith('rec')
         files.extend(map(lambda x: '{0}/{1}'.format(root, x), speaker_files))
     return files
 
